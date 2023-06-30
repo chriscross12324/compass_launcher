@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "chrismc16@outlook.com",
+                "Name": "Chris Coulthard"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "A reimagination of what it means to launch and search applications.",
+        "Icon": "distributor-logo-windows",
+        "Id": "com.github.chriscross12324.compass_launcher",
+        "Name": "Compass Launcher",
+        "Version": "1",
+        "Website": "https://github.com/chriscross12324/compass_launcher"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.launchermenu"
+    ],
+    "KPackageStructure": "Plasma/Applet"
+}
